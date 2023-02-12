@@ -1,0 +1,41 @@
+body
+{
+background-color: yellow;
+}
+
+h1
+{
+color:rgb(4, 255, 0);
+background-color: magenta;
+}
+
+#show_sketch
+{
+float:right;
+}
+
+canvas
+{
+
+border:5px solid whitesmoke;
+border-radius:20px;
+animation-name: example;
+animation-duration: 2s;
+margin-top: 100px;
+animation-iteration-count: infinite;
+
+}
+@keyframes example {
+
+from{box-shadow: 1px 1px 38px aqua;}
+to{box-shadow: 1px 1px 38px blue;}
+
+}
+
+p
+{
+padding-top:10px;
+font-size:25px;
+}
+
+
